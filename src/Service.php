@@ -12,14 +12,13 @@ namespace think\worker;
 
 use think\Service as BaseService;
 
-class Service extends BaseService
-{
-    public function register()
-    {
+class Service extends BaseService {
+    public function register() {
         $this->commands([
-            'worker'         => '\\think\\worker\\command\\Worker',
-            'worker:server'  => '\\think\\worker\\command\\Server',
-            'worker:gateway' => '\\think\\worker\\command\\GatewayWorker',
+            'worker'             => '\\think\\worker\\command\\Worker',
+            'worker:server'      => '\\think\\worker\\command\\Server',
+            'worker:gateway'     => '\\think\\worker\\command\\GatewayWorker',
+            'worker:gateway-win' => '\\think\\worker\\command\\GatewayWorkerWin',
         ]);
     }
 }
