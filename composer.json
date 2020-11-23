@@ -9,6 +9,7 @@
         }
     ],
     "require": {
+        "php": "^7.0",
         "workerman/workerman": "^3.5.23",
         "workerman/gateway-worker": "^3.0.0",
         "topthink/framework": "^6.0.0",
