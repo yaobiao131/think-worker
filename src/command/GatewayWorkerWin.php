@@ -18,7 +18,7 @@ use Workerman\Worker;
 class GatewayWorkerWin extends Command {
     protected function configure()
     {
-        $this->setName('worker:gateway:win')
+        $this->setName('worker:gateway-win')
             ->addArgument('service', Argument::OPTIONAL, 'workerman service: gateway|register|businessworker', null)
             ->addOption('host', 'H', Option::VALUE_OPTIONAL, 'the host of workerman server', null)
             ->addOption('port', 'P', Option::VALUE_OPTIONAL, 'the port of workerman server', null)
