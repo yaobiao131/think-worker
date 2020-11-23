@@ -1,5 +1,5 @@
 {
-    "name": "topthink/think-worker",
+    "name": "yaobiao/think-worker",
     "description": "workerman extend for thinkphp6.0",
     "license": "Apache-2.0",
     "authors": [
@@ -29,6 +29,11 @@
                 "worker_server": "src/config/server.php",
                 "gateway_worker": "src/config/gateway.php"
             }
+        },
+        "think-config": { 
+            "worker": "src/config/worker.php",
+            "worker_server": "src/config/server.php",
+            "gateway_worker": "src/config/gateway.php"
         }
     },
     "minimum-stability": "dev"
